@@ -37,4 +37,4 @@ Pensado para portfolio: **tests con pytest** y **CI en GitHub Actions** (tests +
 ## Créditos
 Repositorio de portfolio por @mariano-tp. Licencia MIT.
 
-Ver también: [Código de Conducta](./CODE_OF_CONDUCT.md)
+Ver también: [Código de Conducta](./CODE_OF_CONDUCT.md) · [Contribuir](./CONTRIBUTING.md) · [Seguridad](./SECURITY.md)
