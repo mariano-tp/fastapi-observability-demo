@@ -17,3 +17,17 @@ jobs:
           file: ./Dockerfile
           push: false
           tags: fastapi-observability-demo:ci
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'app/**'
+      - 'Dockerfile'
+      - 'requirements.txt'
+      - '.github/workflows/docker-ci.yml'
+  pull_request:
+    paths:
+      - 'app/**'
+      - 'Dockerfile'
+      - 'requirements.txt'
+  workflow_dispatch:
