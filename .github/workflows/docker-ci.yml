@@ -8,10 +8,19 @@ on:
       - "requirements.txt"
       - ".github/workflows/docker-ci.yml"
   pull_request:
+    paths:
+      - "Dockerfile"
+      - "app/**"
+      - "requirements.txt"
+      - ".github/workflows/docker-ci.yml"
   workflow_dispatch:
 
 permissions:
   contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
