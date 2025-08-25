@@ -2,8 +2,8 @@
 [![docker-build](https://img.shields.io/github/actions/workflow/status/mariano-tp/fastapi-observability-demo/docker-ci.yml?branch=main&label=docker-build&style=flat-square)](https://github.com/mariano-tp/fastapi-observability-demo/actions/workflows/docker-ci.yml)
 [![CodeQL](https://img.shields.io/github/actions/workflow/status/mariano-tp/fastapi-observability-demo/codeql.yml?branch=main&label=codeql&style=flat-square)](https://github.com/mariano-tp/fastapi-observability-demo/actions/workflows/codeql.yml)
 [![release](https://img.shields.io/github/v/release/mariano-tp/fastapi-observability-demo?display_name=tag&style=flat-square)](https://github.com/mariano-tp/fastapi-observability-demo/releases)
-[![license: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](./LICENSE)
 [![last commit](https://img.shields.io/github/last-commit/mariano-tp/fastapi-observability-demo?style=flat-square)](https://github.com/mariano-tp/fastapi-observability-demo/commits/main)
+[![license: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](./LICENSE)
 [![stars](https://img.shields.io/github/stars/mariano-tp/fastapi-observability-demo?style=flat-square)](https://github.com/mariano-tp/fastapi-observability-demo/stargazers)
 
 # fastapi-observability-demo
