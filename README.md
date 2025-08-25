@@ -6,7 +6,7 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](./LICENSE)
 [![stars](https://img.shields.io/github/stars/mariano-tp/fastapi-observability-demo?style=flat-square)](https://github.com/mariano-tp/fastapi-observability-demo/stargazers)
 
-# fastapi-observability-demo
+# FastAPI Observability Demo
 
 API mínima con **FastAPI** que expone métricas **/metrics** vía `prometheus-fastapi-instrumentator`.  
 Pensado para portfolio: **tests con pytest** y **CI en GitHub Actions** (tests + build de imagen, sin push).
