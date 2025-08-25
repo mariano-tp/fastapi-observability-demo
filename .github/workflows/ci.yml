@@ -24,3 +24,8 @@ jobs:
         env:
           PYTHONPATH: ${{ github.workspace }}
         run: pytest -q
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
