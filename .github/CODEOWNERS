@@ -1,1 +1,4 @@
-* @mariano-tp
+# Solo reviso el código y los tests; no dependency manifests
+app/**            @mariano-tp
+tests/**          @mariano-tp
+.github/workflows/** @mariano-tp
