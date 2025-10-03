@@ -8,20 +8,20 @@
 
 # FastAPI Observability Demo
 
-API mínima con **FastAPI** que expone métricas **/metrics** vía `prometheus-fastapi-instrumentator`.  
-Pensado para portfolio: **tests con pytest** y **CI en GitHub Actions** (tests + build de imagen, sin push).
+Minimal API with **FastAPI** exposing **/metrics** via `prometheus-fastapi-instrumentator`.  
+Portfolio-oriented: **pytest tests** and **CI in GitHub Actions** (tests + image build, no push).
 
-> 100% web: no hace falta instalar nada. Subí este repo y ejecutá los workflows en **Actions**.
+> 100% web: no local install needed. Push this repo and run the workflows in **Actions**.
 
 ## Endpoints
 - `GET /health` → `{"status":"ok"}`
-- `GET /predict?x=<float>&y=<float>` → suma simple
-- `GET /metrics` → métricas Prometheus
+- `GET /predict?x=<float>&y=<float>` → simple sum
+- `GET /metrics` → Prometheus metrics
 
-## Cómo probar (CI)
-- **Actions → Run workflow** en: `ci.yml` (tests) y `docker-ci.yml` (build sin push).
+## How to test (CI)
+- **Actions → Run workflow** for: `ci.yml` (tests) and `docker-ci.yml` (build without push).
 
-## Estructura
+## Structure
 ```text
 .
 ├── app/
@@ -36,7 +36,7 @@ Pensado para portfolio: **tests con pytest** y **CI en GitHub Actions** (tests +
     └── docker-ci.yml
 ```
 
-## Créditos
-Repositorio de portfolio por @mariano-tp. Licencia MIT.
+## Credits
+Portfolio repository by @mariano-tp. Licensed under MIT.
 
-Ver también: [Código de Conducta](./CODE_OF_CONDUCT.md) · [Contribuir](./CONTRIBUTING.md) · [Seguridad](./SECURITY.md)
+See also: [Code of Conduct](./CODE_OF_CONDUCT.md) · [Contributing](./CONTRIBUTING.md) · [Security](./SECURITY.md)
