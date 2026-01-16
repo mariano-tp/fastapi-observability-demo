@@ -1,4 +1,4 @@
-> Available languages / Idiomas disponibles: [English](README.md) / [Español](README.ES.md)
+> Available languages / Idiomas disponibles: [*English*](README.md) / [*Español*](README.ES.md)
 
 [![tests](https://img.shields.io/github/actions/workflow/status/mariano-tp/fastapi-observability-demo/ci.yml?branch=main&label=tests&style=flat-square)](https://github.com/mariano-tp/fastapi-observability-demo/actions/workflows/ci.yml)
 [![docker-build](https://img.shields.io/github/actions/workflow/status/mariano-tp/fastapi-observability-demo/docker-ci.yml?branch=main&label=docker-build&style=flat-square)](https://github.com/mariano-tp/fastapi-observability-demo/actions/workflows/docker-ci.yml)
