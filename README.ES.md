@@ -51,7 +51,7 @@ Entrá en la pestaña Actions y ejecutá los workflows (o empujá un commit).
     └── codeql.yml
 ```
 
-## Credits
+## Créditos
 Repositorio de portfolio por @mariano-tp. Licencia MIT.
 
-See also: [Code of Conduct](./CODE_OF_CONDUCT.md) · [Contributing](./CONTRIBUTING.md) · [Security](./SECURITY.md)
+Ver también: [Code of Conduct](./CODE_OF_CONDUCT.md) · [Contributing](./CONTRIBUTING.md) · [Security](./SECURITY.md)
