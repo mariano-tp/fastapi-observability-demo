@@ -8,18 +8,30 @@
 
 # FastAPI Observability Demo
 
-Minimal API with **FastAPI** exposing **/metrics** via `prometheus-fastapi-instrumentator`.  
-Portfolio-oriented: **pytest tests** and **CI in GitHub Actions** (tests + image build, no push).
+Minimal API with FastAPI exposing /metrics via `prometheus-fastapi-instrumentator`.
 
-> 100% web: no local install needed. Push this repo and run the workflows in **Actions**.
+This repo is designed to be validated entirely in GitHub:
+tests, security checks and Docker image build run in GitHub Actions.
+
+No local setup is required to evaluate it.
 
 ## Endpoints
-- `GET /health` → `{"status":"ok"}`
-- `GET /predict?x=<float>&y=<float>` → simple sum
-- `GET /metrics` → Prometheus metrics
+- GET /health -> {"status":"ok"}
+- GET /predict?x=<float>&y=<float> -> simple sum
+- GET /metrics -> Prometheus metrics
 
-## How to test (CI)
-- **Actions → Run workflow** for: `ci.yml` (tests) and `docker-ci.yml` (build without push).
+## How to validate (GitHub Actions)
+Open the Actions tab and run the workflows (or push a commit).
+
+- tests (ci.yml)  
+  Runs pytest in CI.  
+  Evidence: the workflow run logs, and (if enabled) downloadable artifacts like test reports/coverage.
+
+- docker-build (docker-ci.yml)  
+  Builds the Docker image without pushing it.
+
+- codeql (codeql.yml)  
+  Runs static analysis security scanning.
 
 ## Structure
 ```text
@@ -33,7 +45,9 @@ Portfolio-oriented: **pytest tests** and **CI in GitHub Actions** (tests + image
 ├── pytest.ini
 └── .github/workflows/
     ├── ci.yml
-    └── docker-ci.yml
+    ├── docker-ci.yml
+    └── codeql.yml
+
 ```
 
 ## Credits
