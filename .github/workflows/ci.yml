@@ -31,7 +31,7 @@ jobs:
 
       - name: Run tests with report + coverage
         run: |
-          pytest -q \
+          pytest -vv \
             --disable-warnings \
             --maxfail=1 \
             --html=pytest-report.html \
