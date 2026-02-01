@@ -1,14 +1,14 @@
 > Available languages / Idiomas disponibles: [*English*](README.md) / [*Español*](README.ES.md)
 
-Back to repository: [Home](https://github.com/mariano-tp/mariano-tp/blob/main/README.md)
+Back to repository: [Home](https://github.com/metorresponce/metorresponce/blob/main/README.md)
   
-[![tests](https://img.shields.io/github/actions/workflow/status/mariano-tp/fastapi-observability-demo/ci.yml?branch=main&label=tests&style=flat-square)](https://github.com/mariano-tp/fastapi-observability-demo/actions/workflows/ci.yml)
-[![docker-build](https://img.shields.io/github/actions/workflow/status/mariano-tp/fastapi-observability-demo/docker-ci.yml?branch=main&label=docker-build&style=flat-square)](https://github.com/mariano-tp/fastapi-observability-demo/actions/workflows/docker-ci.yml)
-[![CodeQL](https://img.shields.io/github/actions/workflow/status/mariano-tp/fastapi-observability-demo/codeql.yml?branch=main&label=codeql&style=flat-square)](https://github.com/mariano-tp/fastapi-observability-demo/actions/workflows/codeql.yml)
-[![last commit](https://img.shields.io/github/last-commit/mariano-tp/fastapi-observability-demo?style=flat-square)](https://github.com/mariano-tp/fastapi-observability-demo/commits/main)
-[![release](https://img.shields.io/github/v/release/mariano-tp/fastapi-observability-demo?display_name=tag&style=flat-square)](https://github.com/mariano-tp/fastapi-observability-demo/releases)
+[![tests](https://img.shields.io/github/actions/workflow/status/metorresponce/fastapi-observability-demo/ci.yml?branch=main&label=tests&style=flat-square)](https://github.com/metorresponce/fastapi-observability-demo/actions/workflows/ci.yml)
+[![docker-build](https://img.shields.io/github/actions/workflow/status/metorresponce/fastapi-observability-demo/docker-ci.yml?branch=main&label=docker-build&style=flat-square)](https://github.com/metorresponce/fastapi-observability-demo/actions/workflows/docker-ci.yml)
+[![CodeQL](https://img.shields.io/github/actions/workflow/status/metorresponce/fastapi-observability-demo/codeql.yml?branch=main&label=codeql&style=flat-square)](https://github.com/metorresponce/fastapi-observability-demo/actions/workflows/codeql.yml)
+[![last commit](https://img.shields.io/github/last-commit/metorresponce/fastapi-observability-demo?style=flat-square)](https://github.com/metorresponce/fastapi-observability-demo/commits/main)
+[![release](https://img.shields.io/github/v/release/metorresponce/fastapi-observability-demo?display_name=tag&style=flat-square)](https://github.com/metorresponce/fastapi-observability-demo/releases)
 [![license: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](./LICENSE)
-[![stars](https://img.shields.io/github/stars/mariano-tp/fastapi-observability-demo?style=flat-square)](https://github.com/mariano-tp/fastapi-observability-demo/stargazers)
+[![stars](https://img.shields.io/github/stars/metorresponce/fastapi-observability-demo?style=flat-square)](https://github.com/metorresponce/fastapi-observability-demo/stargazers)
 
 # FastAPI Observability Demo
 
@@ -55,6 +55,6 @@ Open the Actions tab and run the workflows (or push a commit).
 ```
 
 ## Credits
-Portfolio repository by @mariano-tp. Licensed under MIT.
+Portfolio repository by @metorresponce. Licensed under MIT.
 
 See also: [Code of Conduct](./CODE_OF_CONDUCT.md) · [Contributing](./CONTRIBUTING.md) · [Security](./SECURITY.md)
